@@ -1,6 +1,6 @@
 {
   "name": "react-hook-modal",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "A custom modal, with a custom hook for modal handling in React App",
   "author": "josealejandro2928",
   "license": "MIT",
