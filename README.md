@@ -1,7 +1,7 @@
 # react-hook-modal
 
 > A custom modal, with a custom hook for handling modals in React applications.
-This package allows us to centralize the logic for renaming modal components. Through a hook, we can dynamically render any coponent in this modal.
+This package allows us to centralize the logic for rendering modal components. Through a hook, we can dynamically render any coponent in this modal.
 This gives us flexibility in our components since we would not have to handle local states for modal rendering. For that we use the hook useModal
 
 ## Install
