@@ -22,19 +22,25 @@ and a HOC **ModalDataContextProvider**.
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App/App';
+////////////////////////////////////
 import { ModalDataContextProvider } from 'react-hook-modal';
+////////////////////////////////////
 
 ReactDOM.render(
+  ////////////////////////////////////
   <ModalDataContextProvider>
     <App />
   </ModalDataContextProvider>,
+  ////////////////////////////////////
   document.getElementById('root')
 );
 ```
 
-### 2. Put the **Modal** component in the container component, e.g. App.
+### 2. Put the **Modal** component in the container component, and add the styles e.g. App.
 
 ```tsx
+ ...
+ import 'react-hook-modal/dist/index.css';
  ...
  return (
     <div className='App'>
