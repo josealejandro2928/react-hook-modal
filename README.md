@@ -40,6 +40,7 @@ ReactDOM.render(
 
 ```tsx
  ...
+ import { Modal, useModal } from 'react-hook-modal';
  import 'react-hook-modal/dist/index.css';
  ...
  return (
